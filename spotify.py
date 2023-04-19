@@ -35,7 +35,7 @@ def text(update, context):
         track_name = track['name']
         artist_name = track['artists'][0]['name']
         # Получаем идентификатор публичного плейлиста
-        playlist_id = '4pVOEixGk0LuliAwU0oF9h'
+        playlist_id = '2feyZP0GrTZDfgB6cDYCBQ'
         # Добавляем трек в плейлист
         sp.user_playlist_add_tracks(user='IvanBo2k04', playlist_id=playlist_id, tracks=[track['uri']])
         # Отправляем сообщение пользователю с подтверждением добавления трека
